@@ -43,10 +43,10 @@ void pointLeft(){
    scoreLeft += 1;
    ball_x1 = 490;
    ball_y1 = 490;
-   ball_speedX = 2;
-   ball_speedY = 3;
    ball_speedM = 1;
    pointLeft = false;
+    ball_speedX = -2;
+   ball_speedY = -3;
    
  }
 }
@@ -55,10 +55,10 @@ void pointRight(){
    scoreRight += 1;
    ball_x1 = 490;
    ball_y1 = 490;
-    ball_speedX = -2;
-   ball_speedY = -3;
 ball_speedM = 1;
    pointRight = false;
+     ball_speedX = 2;
+   ball_speedY = 3;
  }
 }
 
